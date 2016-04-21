@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    margin: 0
+    margin: 0;
 }
 
 .user {
@@ -77,81 +77,3 @@ progress[value]::-webkit-progress-value {
     height: 6px;
     z-index: 999999999;
 }
-
-#manager {
-    box-shadow: 0px 3px 10px 0px #656565;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 20px;
-    z-index: 99999999;
-    background: #F3EFE0;
-    color: #FFBB00;
-}
-
-#manager span {
-    color: black;
-}
-
-#manager #end {
-    position: relative;
-    color: white;
-    margin: 0;
-    padding: 20px;
-    background: #FFBB00;
-    margin: 20px auto;
-    text-align: center;
-    cursor: pointer;
-}
-
-#manager #end:hover {
-    background: #BBBB00;
-}
-
-.mfield {
-    margin-bottom: 10px;
-}
-
-#validator {
-    box-shadow: 0px 3px 10px 0px #656565;
-    background: #FFBB00;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 20px;
-    z-index: 99999999;
-    background: #F3EFE0;
-    color: #FFBB00;
-}
-
-#validator #yes {
-    text-align: center;
-    padding: 20px;
-    background: #FFBB00;
-    margin: 0 auto 10px auto;
-    text-align: center;
-    cursor: pointer;
-    color: white;
-}
-
-#validator #no {
-    text-align: center;
-    padding: 20px;
-    background: #FFBB00;
-    margin: 0 auto;
-    text-align: center;
-    cursor: pointer;
-    color: white;
-}
-
-#validator #no:hover {}
-
-#validator #yes:hover {}
