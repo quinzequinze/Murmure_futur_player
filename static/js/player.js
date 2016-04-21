@@ -6,6 +6,7 @@ var fullScreen = false
 playIdle()
 
 socketVideoMaster.on('playVideo', function(_data) {
+	player.loop = false
 	player.src = _data
 	player.play()
 	player.addEventListener('ended', function() {
@@ -24,6 +25,7 @@ key('enter', function() {
 function playIdle(){
 	player.src = "idle.mp4"
 	player.play()
+	player.loop = true
 }
 
 function udpateProgress() {
